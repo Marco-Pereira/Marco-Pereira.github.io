@@ -111,22 +111,28 @@ header .header-content .header-content-inner p {
 .intro {
 	color: #fff;
     background-color:#3D5A80;
-    padding: 70px 0;
+    padding: 30px 0;
     text-align: center;
 }
 
 .content {
     padding: 100px 0;
+    color: #fff;
+    background-color: rgb(41, 41, 41);
+    text-align: justify;
 }
 
 .content-2 {
+    padding: 20px 0;
 	color: #fff;
-    background-color: #222;
+    background-color: #293241;
 }
 
+
 .content-3 {
-	padding: 20px 0 40px;
-	text-align: center;
+	padding: 100px 0;
+    color: #fff;
+    background-color: #222;
 }
 
 
@@ -168,7 +174,7 @@ header .header-content .header-content-inner p {
 	}
 	
 .item-3 {
-	background: url('../images/canyon.jpg');
+	background: url('../images/canyonwhite.jpg');
 	}
 		
 .item-1,

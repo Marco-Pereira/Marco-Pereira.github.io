@@ -21,6 +21,17 @@
     <!-- Custom Fonts from Google -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+
+
 </head>
 
 <body>
@@ -35,16 +46,16 @@
                         <a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="#">Projects</a>
+                        <a href="#projetos">Projects</a>
                     </li>
 					<li>
-						<a href="#">Skills</a>
+						<a href="#skills">Skills</a>
                     </li>
                     <li>
-                        <a href="#">About me</a>
+                        <a href="#aboutme">About me</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#contactos">Contact</a>
                     </li>
                 </ul>
                 
@@ -66,14 +77,14 @@
 <!-- Promos -->
 <div class="container-fluid">
     <div class="row promo">
-        <a href="#">
+        <a href="#projetos">
             <div class="col-md-4 promo-item item-1">
                 <h3>
                     Projects
                 </h3>
             </div>
         </a>
-        <a href="#">
+        <a href="#skills">
             <div class="col-md-4 promo-item item-2">
                 <h3>
                     Skills
@@ -81,7 +92,7 @@
             </div>
         </a>
         
-        <a href="#">
+        <a href="#aboutme">
             <div class="col-md-4 promo-item item-3">
                 <h3>
                     About me
@@ -106,17 +117,26 @@
     </section>
 
 	<!-- Content 1 -->
-    <section class="content">
+    <section id="projetos" class="content">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <img class="img-responsive img center-block" src="images/fog.jpg" alt="">
+                    <img class="img-responsive img center-block" src="images/mine/boraNowp.png" alt="">
                 </div>
                 <div class="col-sm-6">
                 	<h2 class="section-header">Projects</h2>
-                	<p class="lead text-muted">BoraNow.</p>
-                	<p class="lead text-muted">BoraNow.</p>
-                	<p class="lead text-muted">BoraNow.</p>
+                    <p class="lead text">BoraNow</p>
+                    <p class="text-light">
+                        BoraNow, a travel guide with the city of Lisbon in mind. It´s a web application that helps
+                        people find places they like, based on a quiz that delivers personalized suggestions, based 
+                        on the visitor's likes, it provides many informacion about the places, if it is Covid-19
+                        safe (based ont the mesasures taken by the places), feedback left by other people, save quiz 
+                        results, and others . It´s also a platform for companies and entities to market their 
+                        places and find new clients, the platform privides with tools to manage their places.
+                        Technologies used included C#, ASP.NET, .NET CORE, 
+                        SQL, HTML, CSS, BOOTSTRAP, RAZOR and GITHUB. 
+                        N-Tier architecture and MVC design pattern.
+                    </p>
                 </div>                
                 
             </div>
@@ -124,18 +144,31 @@
     </section>
 
 	<!-- Content 2 -->
-     <section class="content content-2">
+     <section id="skills" class="content content-2">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                	<h2 class="section-header">Skills</h2>
-                	<p class="lead text-light">Hard work</p>
-                	<p class="lead text-light">Hard work</p>
-                	<p class="lead text-light">Hard work</p>
-                	<p class="lead text-light">Hard work</p>
+            <div class="row justify-content-center">
+
+                <div class="col-sm-3">
+                    <br>
+                    <br>
+                    <h1>Skills</h1>
+                </div>  
+
+                <div class="col-sm-3">
+                	<p class="lead text-light">C# <i class="devicon-csharp-plain"></i> </p>
+                	<p class="lead text-light">.Net <i class="devicon-dot-net-plain-wordmark"></i> </p>
+                	<p class="lead text-light">Visualstudio <i class="devicon-visualstudio-plain"></i> </p>
+                	<p class="lead text-light">GitHub <i class="devicon-github-plain"></i>
                 </div>    
-                <div class="col-sm-6">
-                    <img class="img-responsive img center-block" src="images/river1.jpg" alt="">
+
+                <div class="col-sm-3">
+                    <p class="lead text-light">HTML <i class="devicon-html5-plain"></i></i>
+                    <p class="lead text-light">JavaScript <i class="devicon-javascript-plain"></i> </p>
+                    <p class="lead text-light">CSS <i class="devicon-css3-plain"></i> </p>
+                    <p class="lead text-light">Bootstrap <i class="devicon-bootstrap-plain"></i> </p>
+
+                    
+                    <!-- <img class="img-responsive img center-block" src="images/river1.jpg" alt=""> -->
                 </div>            
                 
             </div>
@@ -143,7 +176,7 @@
     </section>    
 
     <!-- Content 3 -->
-    <section class="content content-3">
+    <section id="aboutme" class="content content-3">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -152,8 +185,8 @@
                     <p class="text-light">Professionally, i'm trying to be a developer, i'm a former zookeper</p>
                 </div>    
                 <div class="col-sm-6">
-                    <img class="img-responsive img center-block" src="images/nature1.jpg" alt="">
-                </div>            
+                    <img class="img-responsive img center-block" src="images/sunrise.jpg" alt="">
+                </div>             
                 
             </div>
         </div>
@@ -165,7 +198,7 @@
     <footer class="page-footer">
     
     	<!-- Contact Us -->
-        <div class="contact">
+        <div id="contactos" class="contact">
         	<div class="container">
 				<h2 class="section-heading">Contact</h2>
 				<p><span class="glyphicon glyphicon-earphone"></span> 900000001</p>
