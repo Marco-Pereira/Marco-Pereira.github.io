@@ -115,6 +115,10 @@ header .header-content .header-content-inner p {
     text-align: center;
 }
 
+#textoR{
+    font-size: 22px;
+}
+
 .content {
     padding: 100px 0;
     color: #fff;
